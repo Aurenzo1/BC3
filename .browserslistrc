@@ -1,0 +1,8 @@
+# Browsers that we support for the vehicle management interface
+
+> 1%
+last 2 versions
+not dead
+not ie <= 11
+not android < 5
+not ios_saf < 12

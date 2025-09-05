@@ -1,0 +1,62 @@
+# =========================
+# Node.js / Express backend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# =========================
+# React / Vite frontend
+# =========================
+dist/
+.vite/
+*.local
+
+# =========================
+# IDE / éditeurs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environnements & secrets
+# =========================
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS fichiers temporaires
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & coverage
+# =========================
+logs/
+*.log
+coverage/
+coverage-final.json
+.nyc_output/
+
+# =========================
+# Tests / Cypress
+# =========================
+cypress/videos/
+cypress/screenshots/
+
+# =========================
+# Build & cache divers
+# =========================
+.cache/
+.parcel-cache/
+.next/
+out/
